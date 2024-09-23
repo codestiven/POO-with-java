@@ -1,0 +1,21 @@
+
+
+// clase adolecente hijo de masculino 
+public class adolecente extends masculino implements menor{
+
+
+
+	public adolecente(String nombre, int edad, String familia, String miembro) {
+		super(nombre, edad, familia, miembro);
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+	@Override
+	public void actividad() {
+    System.out.print(this.getNombre() + " estudia para la preparatoria");
+		
+	}
+
+
+
+}
